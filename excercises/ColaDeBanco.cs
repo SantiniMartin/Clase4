@@ -28,7 +28,7 @@ namespace Clase4.excercises
                 Console.WriteLine($"Atendiendo a: {atendido}. Quedan {cola.Count} en la fila.");
             }
 
-            Console.WriteLine("\n✅ Todos los clientes fueron atendidos.");
+            Console.WriteLine("\nTodos los clientes fueron atendidos.");
         }
     }
 }

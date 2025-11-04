@@ -60,7 +60,7 @@ namespace Clase4.excercises
                 Console.WriteLine($"\nSemana {i + 1} -> Máx: {tempMaxSemana}°C, Mín: {tempMinSemana}°C, Promedio: {promedio:F2}°C");
             }
 
-            Console.WriteLine($"\n🌡 Temperatura más alta del mes: {tempMaxMes}°C (Semana {semanaMaxMes + 1}, {dias[diaMaxMes]})");
+            Console.WriteLine($"\nTemperatura más alta del mes: {tempMaxMes}°C (Semana {semanaMaxMes + 1}, {dias[diaMaxMes]})");
         }
     }
 }

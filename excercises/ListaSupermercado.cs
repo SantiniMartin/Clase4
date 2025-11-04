@@ -29,12 +29,12 @@ namespace Clase4.excercises
 
                 if (lista.Contains(item))
                 {
-                    Console.WriteLine($"✅ '{item}' estaba en la lista, se marca como comprado.");
+                    Console.WriteLine($"'{item}' estaba en la lista, se marca como comprado.");
                     noComprados.Remove(item);
                 }
                 else
                 {
-                    Console.WriteLine($"⚠️ '{item}' no estaba en la lista, se agrega.");
+                    Console.WriteLine($"'{item}' no estaba en la lista, se agrega.");
                     compradosFuera.Add(item);
                 }
 

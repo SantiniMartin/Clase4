@@ -28,7 +28,7 @@ namespace Clase4.excercises
                     }
                     else
                     {
-                        Console.WriteLine("❌ Error: Ingrese un número válido entre 0 y 10.");
+                        Console.WriteLine("Error: Ingrese un número válido entre 0 y 10.");
                     }
                 }
 

@@ -34,7 +34,7 @@ namespace Clase4.excercises
                 matriz[fila, col] = 'X';
             }
 
-            Console.WriteLine("🎯 ¡Bienvenido al juego de las X!");
+            Console.WriteLine("¡Bienvenido al juego de las X!");
             Console.WriteLine($"Hay {cantidadX} X escondidas. Tenés 3 intentos para fallar.\n");
 
             char[,] visible = new char[10, 10];
@@ -51,13 +51,13 @@ namespace Clase4.excercises
 
                 if (matriz[fila, col] == 'X')
                 {
-                    Console.WriteLine("✅ ¡Acertaste!");
+                    Console.WriteLine("¡Acertaste!");
                     visible[fila, col] = 'X';
                     aciertos++;
                 }
                 else
                 {
-                    Console.WriteLine("❌ Fallaste.");
+                    Console.WriteLine("Fallaste.");
                     intentosFallidos++;
                 }
 

@@ -45,7 +45,7 @@ namespace Clase4.excercises
                             stock[nombre] += cantidad;
 
                         historial.Push($"Agregado {cantidad} de {nombre}");
-                        Console.WriteLine("✅ Producto agregado.");
+                        Console.WriteLine("Producto agregado.");
                         break;
 
                     case 2:
@@ -56,11 +56,11 @@ namespace Clase4.excercises
                         {
                             stock[venta]--;
                             historial.Push($"Vendido 1 de {venta}");
-                            Console.WriteLine("✅ Venta realizada.");
+                            Console.WriteLine("Venta realizada.");
                         }
                         else
                         {
-                            Console.WriteLine("❌ Producto no disponible o sin stock.");
+                            Console.WriteLine("Producto no disponible o sin stock.");
                         }
                         break;
 
@@ -77,11 +77,11 @@ namespace Clase4.excercises
                         break;
 
                     case 5:
-                        Console.WriteLine("👋 Saliendo del inventario...");
+                        Console.WriteLine("Saliendo del inventario...");
                         break;
 
                     default:
-                        Console.WriteLine("⚠️ Opción inválida.");
+                        Console.WriteLine("Opción inválida.");
                         break;
                 }
 
